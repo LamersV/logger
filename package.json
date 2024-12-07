@@ -1,0 +1,31 @@
+{
+  "name": "lamers-logger",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "LamersV",
+  "license": "ISC",
+  "description": "A simple logger package with file integration",
+  "devDependencies": {
+    "@types/node": "^22.10.1"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "default": "./dist/index.js",
+      "types": "./dist/types.d.ts"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LamersV/extractor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LamersV/extractor/issues"
+  },
+  "homepage": "https://github.com/LamersV/extractor#readme"
+}
